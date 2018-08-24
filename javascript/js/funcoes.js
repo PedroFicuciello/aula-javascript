@@ -4,6 +4,12 @@ function trocaImagem () {
 function imagemTroca () {
 	document.getElementById("myImage").src="img/js-logo-badge-512.png";
 }
-function trocaFonte () {
+function trocaFonteMaior() {
 	document.getElementById("demo").style.fontSize="35px";
+}
+function trocaFonteMenor () {
+	document.getElementById("demo").style.fontSize="16px";
+}
+function ocultarElemento () {
+	document.getElementById("demo").style.display="none";
 }
