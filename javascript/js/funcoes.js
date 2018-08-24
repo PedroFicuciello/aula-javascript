@@ -13,3 +13,9 @@ function trocaFonteMenor () {
 function ocultarElemento () {
 	document.getElementById("demo").style.display="none";
 }
+function aparecerElemento () {
+	document.getElementById("demo").style.display="block";
+}
+function calcular () {
+	document.getElementById("demo").innerHTML= parseFloat(document.getElementById("num1").value) + parseFloat(document.getElementById("num2").value);
+}
